@@ -22,7 +22,7 @@ It is advisable to start using FFNN without special features and find the optima
 
 To compare your results with the ones from previous groups, please use the Mean Absolute Percentage Error ([Wikipedia](https://en.wikipedia.org/wiki/Mean_absolute_percentage_error) - [Tensorflow Metric](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/MeanAbsolutePercentageError))
 
-Approximately you should reach an error below 20% on the prediction for a single day. Best results from the last semesters arrived around 15-16% error.
+Approximately you should reach an error below 20% on the prediction for a single day in the dataset1. Best results from the last semesters arrived around 15-16% error.
 
 Once you are done, you could indicate the error you got (MAPE) and which architecture you used and it will be added here in a sort of ranking.
 
