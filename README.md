@@ -6,7 +6,7 @@ So you can check at any time the [project page](https://opencampus-sh.github.io/
 
 ### Objective
 
-Your objective is to train a neural network to estimate the sales for a specific day. You can choose the form of the input and the output, usually the input is the data for a specific day (or more than one day) and the output is the sales for a specific day (or more than one).
+Your objective is to train a neural network to estimate the sales from past data. You can choose the form of the input and the output, usually the input is the data for a specific day (or more than one day) and the output is the sales for a specific day (or more than one).
 
 ### Data
 
@@ -14,13 +14,13 @@ More information on the data can be found in the presentation in the `Resources`
 
 ### Technical Information
 
-It is advisable to start using FFNN without special features and find the optimal architecture configuration. Later you can use LSTM, CNN (1D) or whatever to try to improve the result.
+It is advisable to start using FFNN without special features and find the optimal architecture configuration. Later you can use LSTM, CNN (1D) or whatever you like to try to improve the result.
 
 ### Target Results
 
-To compare your work with previous groups, please use the Mean Absolute Percentage Error ([Wikipedia](https://en.wikipedia.org/wiki/Mean_absolute_percentage_error) - [Tensorflow Metric](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/MeanAbsolutePercentageError))
+To compare your results with the ones from previous groups, please use the Mean Absolute Percentage Error ([Wikipedia](https://en.wikipedia.org/wiki/Mean_absolute_percentage_error) - [Tensorflow Metric](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/MeanAbsolutePercentageError))
 
-Approximately you should reach an error below 20%. Best results from the last semesters arrived around 15-16% error.
+Approximately you should reach an error below 20% on the prediction for a single day. Best results from the last semesters arrived around 15-16% error.
 
 ### Past Projects
 
