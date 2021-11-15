@@ -22,6 +22,8 @@ To compare your results with the ones from previous groups, please use the Mean 
 
 Approximately you should reach an error below 20% on the prediction for a single day. Best results from the last semesters arrived around 15-16% error.
 
+Once you are done, you could indicate the error you got (MAPE) and which architecture you used and it will be added here in a sort of ranking.
+
 ### Past Projects
 
 For this project in particular, there were already 2 implementations:
