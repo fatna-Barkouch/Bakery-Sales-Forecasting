@@ -10,7 +10,9 @@ Your objective is to train a neural network to estimate the sales from past data
 
 ### Data
 
-More information on the data can be found in the presentation in the `Resources` folder
+More information on the data can be found in the data folder.
+We have 2 datasets, which they contain similar data, the first one is smaller and maybe a bit simpler (and alreay used), the second may require some small pre-processing and is a bit larger and contains more location (so more challenging).
+In each folder there is a presentation or a readme file to explain.
 
 ### Technical Information
 
