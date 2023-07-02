@@ -1,4 +1,4 @@
 .DS_Store
 Wetter Kiel 2015-2019.csv
-.ipynb_checkpoints
-checkpoints
+code/.ipynb_checkpoints
+code/checkpoints
