@@ -33,7 +33,6 @@ Before running the code, ensure you have the necessary dependencies installed. W
 ## Usage
 Follow the guidelines in each section to understand the workflow and execute the code accordingly. Make sure to modify the necessary parameters based on your specific use case.
 
-![Sales Distribution](C:\Users\fatna\projects\Bakery\code\Project_Notebook_files\Project_Notebook_30_2.png)
 
 
 ## Contribution
