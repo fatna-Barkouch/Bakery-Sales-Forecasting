@@ -1,28 +1,48 @@
-# INSTRUCTIONS TO UPLOAD YOUR PROJECT
+# Bakery Sales Prediction
 
-We use this to guarantee the same structure for all projects.
-Projects will be then uploaded to our [project page](https://opencampus-sh.github.io/oc-ml-projects/) and there these information will be displayed.
-So you can check at any time the [project page](https://opencampus-sh.github.io/oc-ml-projects/) to have an idea about how that would look like.
+Welcome to the Bakery Sales Prediction project! This repository aims to provide accurate predictions for the sales of six types of bread in a bakery located in Kiel. By leveraging the provided data, we have developed three models capable of forecasting sales with impressive accuracy. These models are Encoder-Decoder, CNN-LSTM, and Multi-head CNN-LSTM.
 
-### Objective
+## Project Overview
+In this project, we utilize historical sales data from the Kiel store to train and test our models. The process involves meticulous data collection, thorough cleaning, proper formatting, and effective organization. Once the data is prepared, we employ graph analysis to gain insights into the sales patterns, which further enhances our predictions.
 
-Your objective is to train a neural network to estimate the sales from past data. You can choose the form of the input and the output, usually the input is the data for a specific day (or more than one day) and the output is the sales for a specific day (or more than one).
+## Model Performance
+Our efforts have yielded promising results. Below are the Mean Absolute Error (MAE) and Loss values for each model:
 
-### Data
+- Encoder-Decoder:
+  - MAE: 37.49
+  - Loss: 0.0051
 
-More information on the data can be found in the data folder.
-We have 2 datasets, which they contain similar data, the first one is smaller and maybe a bit simpler (and alreay used), the second may require some small pre-processing and is a bit larger and contains more location (so more challenging).
-In each folder there is a presentation or a readme file to explain.
+- CNN-LSTM:
+  - MAE: 33.08
+  - Loss: 0.0048
 
-### Technical Information
+- Multi-head CNN-LSTM:
+  - MAE: 38.25
+  - Loss: 0.0056
 
-It is advisable to start using FFNN without special features and find the optimal architecture configuration. Later you can use LSTM, CNN (1D) or whatever you like to try to improve the result.
+## Getting Started
+To explore the project and reproduce the results, follow the step-by-step instructions provided in the respective sections. You will find detailed explanations of data processing, model development, and evaluation.
 
-### Target Results
+## Requirements
+Before running the code, ensure you have the necessary dependencies installed. We recommend creating a virtual environment to avoid conflicts with other projects.
 
-To compare your results with the ones from previous groups, please use the Mean Absolute Percentage Error ([Wikipedia](https://en.wikipedia.org/wiki/Mean_absolute_percentage_error) - [Tensorflow Metric](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/MeanAbsolutePercentageError))
+## Installation
+1. Clone this repository to your local machine.
+2. Install the required packages by running `pip install -r requirements.txt`.
 
-Approximately you should reach an error below 20% on the prediction for a single day in the dataset1. Best results from the last semesters arrived around 15-16% error.
+## Usage
+Follow the guidelines in each section to understand the workflow and execute the code accordingly. Make sure to modify the necessary parameters based on your specific use case.
 
-Once you are done, you could indicate the error you got (MAPE) and which architecture you used and it will be added here in a sort of ranking.
+![Sales Distribution](C:\Users\fatna\projects\Bakery\code\Project_Notebook_files\Project_Notebook_30_2.png)
 
+
+## Contribution
+We welcome contributions from the community. If you find any issues or have ideas for improvement, feel free to open an issue or submit a pull request.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+If you have any questions or inquiries, please don't hesitate to contact us at fatna.barkouch@gmail.com.
+
+Happy predicting and happy baking! 🥖🥯🍞
